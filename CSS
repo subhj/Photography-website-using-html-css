@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(21, 16, 6, 0.437)100%,rgba(27, 124, 184, 0.437)100%), url(pic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.icon{
+
+ height: 75px;
+ width: 200px;
+ float: left;
+
+}
+
+.navbar{
+    height: 75px;
+    width: 1200px;
+    margin: auto;
+    float: left;
+}
+.logo{
+    color: rgb(241, 237, 241);
+    padding-top: 12px;
+    padding-left: 20px;
+    font-family: Arial;
+    font-size: 32px;
+    float: left;
+}
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70;
+}
+ul{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+ul li{
+    margin-top: 23px;
+    margin-left: 62px;
+    list-style: none;
+    font-size: 17px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: brown;
+}
+
+.search {
+    width: 200px;
+    float: left;
+    margin: 270px;
+    position: absolute;
+    top: 20px;
+    right: 100%;
+    
+}
+.srch{
+    font-family: Verdana;
+    background: transparent;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid rgb(166, 92, 39);
+    height: 30px;
+    width: 200px;
+    float: left;
+    color: rgb(192, 92, 92);
+    border-right: none;
+    margin-left: 281px;
+    margin-top: 16px;
+    
+}
+.btn{
+    width: 100px;
+    height: 31px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: rgb(205, 159, 73);
+    border: 1px solid rgb(166, 92, 39);
+    font-size: 20px;
+    color: brown;
+    font-family: Arial;
+    float: left;
+    margin-top: 16px;
+    margin-left: -1px;
+}
+.btn :focus{
+    outline: none;
+
+}
+.srch :focus{
+    outline: none;
+}
+
+.content {
+    margin: auto;
+    width: 1200px;
+    height: auto;
+    float: left;
+    color: rgb(225, 200, 200);
+    margin-top: 110px;
+    margin-left: 20px;
+    position: relative;
+}
+.content .par{
+    letter-spacing: 1.2px;
+    margin-top: 10px;
+    
+
+
+}
+
+
+.content .sd{
+    height: 38px;
+    width: 185px;
+    font-family: Arial;
+    color: rgb(219, 118, 41);
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(204 133 0);
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 17px;
+    font-style: normal;
+}
+
+.content .sd a
+{
+    text-decoration: none;
+}
+
+
