@@ -1,1 +1,1 @@
-# photography website using HTML/CSS
+# Photography website using HTML/CSS
